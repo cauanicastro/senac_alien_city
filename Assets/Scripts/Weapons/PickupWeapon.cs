@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class PickupWeapon : MonoBehaviour
 {
-    public Weapon weapon;
-
+    public Firearm weapon;
     public float floatAmplitude = 0.1f;
     public float floatFrequency = 1f;
     Vector3 posOffset = new Vector3();
